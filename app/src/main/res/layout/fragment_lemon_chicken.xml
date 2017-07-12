@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.catherinejohnson.fooddiaryapplication.fragment.LemonChickenFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Lemon Chicken"
+        android:textSize="40dp"
+        android:gravity="center"/>
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:src="@mipmap/lemonchicken"
+    />
+    <Button
+        android:id="@+id/activity_show_ingredientbt"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:text="Ingredients"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textSize="50px"
+                android:text="
+1. Cut each chicken breast in half lengthwise.
+
+2. Place chicken between 2 sheets of heavy-duty plastic wrap; flatten to 1/4-inch thickness, using a rolling pin or flat side of a meat mallet. Sprinkle chicken with salt and pepper.
+
+3. Lightly dredge chicken in flour, shaking off excess.
+
+4. Melt 1 Tbsp. butter with 1 Tbsp. olive oil in a large nonstick skillet over medium-high heat.
+
+5. Cook half of chicken in skillet 2 to 3 minutes on each side or until golden brown and done.
+
+6. Transfer chicken to a serving platter, and keep warm.
+
+7. Repeat procedure with 1 Tbsp. butter and remaining olive oil and chicken.
+
+8. Add broth and lemon juice to skillet, and cook 1 to 2 minutes or until sauce is slightly thickened, stirring to loosen particles from bottom of skillet.
+
+9. Add 8 lemon slices.
+
+10. Remove skillet from heat; add parsley and remaining 2 Tbsp. butter, and stir until butter melts.
+
+11. Pour sauce over chicken.
+
+12. Serve immediately. Garnish, if desired.
+"
+                />
+        </ScrollView>
+
+</LinearLayout>
